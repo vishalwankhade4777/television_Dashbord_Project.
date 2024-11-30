@@ -1,0 +1,74 @@
+.show-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #141414;
+    color: white;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    height: 80vh; /* Restricting the height to avoid overflow */
+    position: relative;
+  }
+  
+  .show-details .image-container {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 3rem;
+  }
+  
+  .show-details .image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+  }
+  
+  .show-details .text-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+  }
+  
+  .show-details h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #e50914; /* Netflix red */
+    margin-bottom: 1.5rem;
+  }
+  
+  .show-details p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+  
+  .show-details .metadata {
+    margin-top: 1.5rem;
+  }
+  
+  .show-details .metadata p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+  }
+  
+  .show-details .back-button {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 3rem;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .show-details .back-button:hover {
+    background-color: #f40612;
+    transform: scale(1.05);
+  }
+  
